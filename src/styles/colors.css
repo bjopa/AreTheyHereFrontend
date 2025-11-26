@@ -1,0 +1,138 @@
+:root {
+  /*
+   * Primitive color scales
+   */
+
+  /* red */
+  --color-red-100: #fdf9fa;
+  --color-red-200: #f8eaed;
+  --color-red-300: #eeccd3;
+  --color-red-400: #e4afb9;
+  --color-red-500: #da909f;
+  --color-red-600: #ce6d80;
+  --color-red-700: #c1465e;
+  --color-red-800: #b62440;
+  --color-red-900: #931c33;
+  --color-red-1000: #701131;
+
+  /* orange */
+  --color-orange-100: #fef4f2;
+  --color-orange-200: #fde8e3;
+  --color-orange-300: #fcd6cc;
+  --color-orange-400: #f8b9a9;
+  --color-orange-500: #f49e88;
+  --color-orange-600: #e86b4b;
+  --color-orange-700: #d4502e;
+  --color-orange-800: #b24023;
+  --color-orange-900: #943820;
+  --color-orange-1000: #7b3321;
+
+  /* gray */
+  --color-grey-100: #fcfcfc;
+  --color-grey-200: #faf9f9;
+  --color-grey-300: #f5f3f2;
+  --color-grey-400: #efedec;
+  --color-grey-500: #eae7e5;
+  --color-grey-600: #e5e1df;
+  --color-grey-700: #b7b4b2;
+  --color-grey-800: #898786;
+  --color-grey-900: #5c5a59;
+  --color-grey-1000: #2e2d2d;
+
+  /* attention */
+  --color-attention-100: #dadaf4;
+  --color-attention-200: #b2b2e9;
+  --color-attention-400: #9999cc;
+  --color-attention-600: #445590;
+
+  /* eror */
+  --color-error-100: #f8c4b7;
+  --color-error-200: #f49e88;
+  --color-error-400: #ee7050;
+  --color-error-600: #b01a00;
+  --color-error-700: #a11a02;
+  --color-error-800: #8e1602;
+
+  /* pending */
+  --color-pending-100: #fff3e5;
+  --color-pending-400: #faaa55;
+  --color-pending-600: #ad5900;
+
+  /* success */
+  --color-success-100: #c8dfc3;
+  --color-success-400: #7cb36f;
+  --color-success-600: #475f3f;
+
+  /*
+   * Brand colors
+   */
+
+  --color-brand-primary: var(--color-red-800);
+  --color-brand-secondary: var(--color-red-1000);
+  --color-brand-tertiary: var(--color-orange-500);
+
+  /*
+   * Supporting brand colors
+   */
+
+  --color-deep-purple: #492a34;
+  --color-deep-red: #430a1d;
+  --color-dark-coral: #cf4748;
+  --color-coral: #d86261;
+  --color-greige: #a99b94;
+  --color-beige: #efe6dd;
+  --color-white: #ffffff;
+
+  /*
+   * Foregrounds
+   */
+
+  --color-fg-primary: var(--color-grey-1000);
+  --color-fg-secondary: var(--color-grey-900);
+  --color-fg-tertiary: var(--color-red-1000);
+  --color-fg-brand: var(--color-red-800);
+  --color-fg-disabled: var(--color-grey-700);
+
+  /* Inverse */
+  --color-fg-inverse-primary: var(--color-grey-100);
+  --color-fg-inverse-secondary: var(--color-grey-200);
+  --color-fg-inverse-tertiary: var(--color-grey-300);
+  --color-fg-inverse-danger: var(--color-orange-100);
+
+  /* System */
+  --color-fg-attention: var(--color-attention-600);
+  --color-fg-success: var(--color-success-600);
+  --color-fg-pending: var(--color-pending-600);
+  --color-fg-error: var(--color-error-600);
+
+  /*
+   * Backgrounds
+   */
+
+  --color-bg-primary: var(--color-grey-100);
+  --color-bg-secondary: var(--color-grey-400);
+  --color-bg-tertiary: var(--color-deep-red);
+  --color-bg-overlay: rgba(from var(--color-grey-1000) r g b / 0.8);
+  --color-bg-disabled: var(--color-grey-100);
+
+  --color-bg-attention: var(--color-attention-100);
+  --color-bg-success: var(--color-success-100);
+  --color-bg-pending: var(--color-pending-100);
+  --color-bg-error: var(--color-error-100);
+
+  /*
+   * Borders
+   */
+
+  --color-divider-primary: var(--color-grey-400);
+  --color-divider-secondary: var(--color-grey-700);
+  --color-divider-inverse: var(--color-red-1000);
+  --color-border-focus: var(--color-attention-600);
+  --color-border-focus-inverse: var(--color-attention-100);
+  --color-border-disabled: var(--color-grey-200);
+
+  --color-border-attention: var(--color-attention-400);
+  --color-border-success: var(--color-success-400);
+  --color-border-pending: var(--color-pending-400);
+  --color-border-error: var(--color-error-400);
+}
